@@ -1,0 +1,30 @@
+# Frontend
+web/node_modules/
+web/.next/
+web/out/
+web/.env.local
+
+# Backend
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+server/.env
+
+# Generated data and user uploads
+data/*.index
+data/*.db
+data/*.sqlite3
+memes/*
+!memes/.gitkeep
+!memes/README.md
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
